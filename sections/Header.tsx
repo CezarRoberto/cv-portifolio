@@ -1,6 +1,6 @@
 import { Flex, Link, Icon } from "@chakra-ui/react";
 import { HiOutlineMail } from "react-icons/hi";
-import { BiFlag } from "react-icons/bi";
+import MenuLanguages from "../components/MenuLanguages";
 
 export default function Header() {
   return (
@@ -16,11 +16,8 @@ export default function Header() {
         <Icon as={HiOutlineMail} mr={3} />
         cezarrobertorodrigues50@gmail.com
       </Link>
-      <Link>
-        <Icon as={ BiFlag } mr={1} />
-        Languages
-      </Link>
-      <Link color="primary" href="https://www.shorturl.at/xAHQ2" isExternal>
+        <MenuLanguages />
+      <Link color="primary" href="https://drive.google.com/file/d/1eeJPRjaBwHKhjBHK8QQh8lKp56EfDw8O/view?usp=sharing" isExternal>
         Resumé
       </Link>
     </Flex>
