@@ -43,7 +43,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.75, duration: 0.5 }}
       >
-        Developing with React, Typescript, Next.js, Express, Docker & More
+        Developing with Nest.Js, Typescript, Next.js, GraphQL, Docker & More
       </MotionHeading>
       <ScrollIndicator />
     </Flex>

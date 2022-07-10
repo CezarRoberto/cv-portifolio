@@ -17,7 +17,7 @@ export default function Header() {
         cezarrobertorodrigues50@gmail.com
       </Link>
         <MenuLanguages />
-      <Link color="primary" href="https://drive.google.com/file/d/1eeJPRjaBwHKhjBHK8QQh8lKp56EfDw8O/view?usp=sharing" isExternal>
+      <Link color="primary" href="https://drive.google.com/file/d/1T-kxwqnW0TBl6VROCDxhIuN3UoMgDiAg/view?usp=sharing" isExternal>
         Resumé
       </Link>
     </Flex>
