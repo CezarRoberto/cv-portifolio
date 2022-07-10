@@ -24,6 +24,13 @@ export default function Projects() {
           demoLink="https://web-agency-lake.vercel.app"
           technologies={["Chakra Ui", "Next.js", "Typescript"]}
         />
+        <ProjectCard
+          title="Championship API - Games and Teams"
+          description="A project to manage and create championships that gives random winner"
+          githubLink="https://github.com/CezarRoberto/championship"
+          demoLink="https://github.com/CezarRoberto/championship"
+          technologies={["Node.Js", "Prisma", "Typescript", "Docker"]}
+        />
       </SimpleGrid>
       <Box mt={3} textAlign="right" fontSize="12px" fontWeight="bold">
         <Link href="https://github.com/CezarRoberto" target="_blank">

@@ -1,6 +1,5 @@
 import { Flex, Link, Icon } from "@chakra-ui/react";
 import { HiOutlineMail } from "react-icons/hi";
-import MenuLanguages from "../components/MenuLanguages";
 
 export default function Header() {
   return (
@@ -16,7 +15,6 @@ export default function Header() {
         <Icon as={HiOutlineMail} mr={3} />
         cezarrobertorodrigues50@gmail.com
       </Link>
-        <MenuLanguages />
       <Link color="primary" href="https://drive.google.com/file/d/1T-kxwqnW0TBl6VROCDxhIuN3UoMgDiAg/view?usp=sharing" isExternal>
         Resumé
       </Link>
